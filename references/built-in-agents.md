@@ -1,5 +1,5 @@
-# Built-in Agent Prompts Reference
-## Source: `src/tools/AgentTool/built-in/*.ts`
+# Agent Prompts Reference
+## Discovered patterns from production AI systems
 
 ## Explore Agent
 ```typescript

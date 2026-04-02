@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai)
 
-**A prompt engineering framework based on Claude Code's source code analysis.**
+**A systematic approach to designing professional Agent prompts — discovered through reverse engineering of production AI systems.**
 
 ---
 
@@ -23,7 +23,7 @@ Most prompt writing is guesswork:
 
 ## The Solution
 
-After analyzing Claude Code's built-in Agent prompts, I discovered a **6-section structure** that produces consistent, professional results:
+After studying production AI systems, I discovered a **6-section structure** that produces consistent, professional results:
 
 ```
 1. Identity Declaration
@@ -179,10 +179,10 @@ See [SKILL.md](SKILL.md) for the complete framework.
 
 ## Background
 
-This project emerged from analyzing Claude Code's internal source code to understand how its built-in Agents (Explore, Plan, Verification) are designed.
+This project emerged from studying how production AI coding systems structure their prompts. By reverse engineering real-world implementations, I identified consistent patterns that separate professional prompts from guesswork.
 
 The findings:
-1. All built-in prompts follow a consistent 6-section structure
+1. All well-designed prompts follow a consistent 6-section structure
 2. Specific constraint definitions prevent AI misalignment
 3. Built-in checkpoint mechanisms prevent wasted work
 4. Adversarial thinking patterns catch AI's tendency to defend wrong answers
@@ -203,9 +203,9 @@ MIT License - see [LICENSE](LICENSE)
 
 ## Disclaimer
 
-This project is not affiliated with Anthropic. It is based on publicly available
-research of Claude Code's structure and patterns. Claude Code™ is a trademark
-of Anthropic. Please use responsibly and respect Anthropic's terms of service.
+This project is for educational purposes. It is based on publicly available research
+of AI coding assistant patterns. Please use responsibly and respect the terms of
+service of any AI platforms you use.
 
 ---
 

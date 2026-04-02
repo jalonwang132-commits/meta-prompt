@@ -1,6 +1,6 @@
 ---
 name: meta-prompt
-description: A systematic approach to designing professional Agent prompts. Based on Claude Code source code analysis.
+description: A systematic approach to designing professional Agent prompts. Based on reverse engineering of production AI systems.
 when_to_use: When you need to design or write a professional agent prompt for any AI coding assistant
 allowed_tools: ["Read", "Write", "Edit", "Glob", "Grep"]
 agent: general-purpose
@@ -534,12 +534,6 @@ Create a documentation agent:
 
 ## Memory Anchor
 
-Based on patterns from Claude Code internals:
-- `src/tools/AgentTool/built-in/exploreAgent.ts`
-- `src/tools/AgentTool/built-in/planAgent.ts`
-- `src/tools/AgentTool/built-in/verificationAgent.ts`
-- `src/tools/AgentTool/prompt.ts`
-- `src/constants/tools.ts`
-- `src/tools/AgentTool/loadAgentsDir.ts`
+Based on patterns discovered from studying production AI coding assistants.
 
-And AI collaboration principles synthesized from practical experience.
+The 6-section framework emerged from analyzing how real-world AI systems structure their prompts for consistency and reliability.
