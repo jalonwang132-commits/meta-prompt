@@ -71,15 +71,13 @@ Create a code review agent that focuses on security vulnerabilities.
 meta-prompt/
 ├── SKILL.md                          # Claude Code skill (install this)
 ├── README.md                         # This file
-├── references/                       # Source research
-│   ├── agent-schema.md              # Agent definition types
-│   ├── tool-restrictions.md          # Tool filtering rules
-│   ├── built-in-agents.md           # Explore/Plan/Verification prompts
-│   └── prompt-writing-guidelines.md  # Writing guidelines
-└── .claude/
-    └── skills/
-        └── meta-prompt/
-            └── SKILL.md              # Direct installation path
+├── LICENSE                           # MIT License
+├── CONTRIBUTING.md                   # Contribution guidelines
+└── references/                       # Source research
+    ├── agent-schema.md               # Agent definition types
+    ├── tool-restrictions.md          # Tool filtering rules
+    ├── built-in-agents.md            # Explore/Plan/Verification prompts
+    └── prompt-writing-guidelines.md  # Writing guidelines
 ```
 
 ---
@@ -200,6 +198,14 @@ Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## License
 
 MIT License - see [LICENSE](LICENSE)
+
+---
+
+## Disclaimer
+
+This project is not affiliated with Anthropic. It is based on publicly available
+research of Claude Code's structure and patterns. Claude Code™ is a trademark
+of Anthropic. Please use responsibly and respect Anthropic's terms of service.
 
 ---
 
